@@ -21,13 +21,15 @@ app.engine("ejs", ejsMate);
 app.get("/listings", (req, res) => {
     //const allListings = await Listing.find({});
     //res.render("index.ejs");
-    res.redirect("www.google.com");
+   // res.redirect("www.google.com");
+    res.send(https://yojak1-st1.onrender.com);
 });
 
 app.post("/listings", (req, res) => {
     //const allListings = await Listing.find({});
    // res.render("index.ejs");
-    res.redirect("www.google.com");
+   // res.redirect("www.google.com");
+     res.send(https://yojak1-st1.onrender.com);
 });
 
 app.listen(8080, () => {
