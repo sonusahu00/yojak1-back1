@@ -20,12 +20,14 @@ app.engine("ejs", ejsMate);
 
 app.get("/listings", (req, res) => {
     //const allListings = await Listing.find({});
-    res.render("index.ejs");
+    //res.render("index.ejs");
+    res.redirect("www.google.com");
 });
 
 app.post("/listings", (req, res) => {
     //const allListings = await Listing.find({});
-    res.render("index.ejs");
+   // res.render("index.ejs");
+    res.redirect("www.google.com");
 });
 
 app.listen(8080, () => {
