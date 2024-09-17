@@ -29,7 +29,7 @@ app.post("/listings", (req, res) => {
     //const allListings = await Listing.find({});
    // res.render("index.ejs");
    // res.redirect("www.google.com");
-     res.send(https://yojak1-st1.onrender.com);
+     res.send("https://yojak1-st1.onrender.com");
 });
 
 app.listen(8080, () => {
